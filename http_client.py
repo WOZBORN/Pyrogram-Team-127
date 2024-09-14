@@ -6,7 +6,7 @@ from models import User, Rating
 class HttpClient:
     def __init__(self):
         self.session = None
-        self.host = "https://f18e4325-89f0-4357-b6a4-2221454d52fb-00-24sehfqtbpqxn.janeway.replit.dev"
+        self.host = "https://gsmaksim.pythonanywhere.com/"
         self.cache = {}
 
     async def _get_session(self):
